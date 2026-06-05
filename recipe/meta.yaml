@@ -1,5 +1,5 @@
 {% set name = "connected-components-3d" %}
-{% set version = "3.27.0" %}
+{% set version = "3.29.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   # Apparently the tarball name uses underscores
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/connected_components_3d-{{ version }}.tar.gz
-  sha256: c479949d3f22daf64ed8be6435d2db0e9195c0a22c48139706e4c41cb1905e6f
+  sha256: 6f39c3679dc52ce5afd9c838b7573fc281f7ccfa583c9e42fac449c24ad9f30b
 
 build:
   skip: true  # [py<37]
